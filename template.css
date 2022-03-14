@@ -1,0 +1,111 @@
+/* Start Navbar */
+
+.logo i.fas{
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.collapse{
+    color: #212529;
+}
+
+.logo i + span{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    width: 200px;
+}
+
+.links ul li a{
+    color: white;
+}
+
+li.head{
+    color: white;
+}
+
+.text-muted{
+    width: 200px;
+}
+
+@media (max-width:600px) {
+    .bg-dark{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .links ul{
+        padding: 10px;
+        margin-top: 20px;
+        line-height: 2;
+    }
+}
+/* End Navbar */
+
+/* Start Album */
+
+.text-secondary{
+    width: 500px;
+}
+@media (max-width:600px){
+    .text-secondary{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    nav + div.card-body{
+        margin-top: 3rem!important;
+        margin-bottom: 3rem!important;
+    }
+}
+
+div + small.text-muted{
+    display: contents;
+}
+
+/* End Album */
+
+/* Start footer */
+
+@media (max-width: 992px){
+    .footer{
+        margin-top: 3rem!important;
+        margin-bottom: 3rem!important;
+    }
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer div + a{
+    padding: 10px;
+    height: 50px;
+}
+
+@media (max-width:768px){
+
+    .footer div + a{
+        padding: 10px;
+        height: 50px;
+    }
+
+    .footer .container{
+        flex-direction: column;
+    }
+}
+/* Start footer */
